@@ -169,3 +169,60 @@ fieldset {
     display: block;
     clear: both;
 }
+
+/* Media queries */
+@media screen and ( max-width: 980px ) {
+    .content-size {
+        width: 100%;
+    }
+
+    #mainContent {
+        width: 625px;
+        margin-left: 1rem;
+    }
+
+    .portfolio-item {
+        height: 15rem;
+        width: 15rem;
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+    .content-size {
+        width: 100%
+    }
+
+    #mainContent {
+        width: 700px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-item {
+        height: 18srem;
+        width: 18rem;
+    }
+}
+
+@media screen and ( max-width: 640px ) {
+    .content-size {
+        width: 100%
+    }
+
+    #mainContent {
+        width: 500px;
+        margin: 0 10px 10px 10px;
+    }
+
+    .portfolio-item {
+        height: 18srem;
+        width: 18rem;
+    }
+
+    #logo {
+        width: 100%;
+        clear: both;
+        display: block;
+        content: "";
+    }
+}
